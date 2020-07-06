@@ -4,10 +4,11 @@ There are Four sections in this assessment. The tests have been written for you.
 ## Part 3:
 
 The instructions to implement to classes are in the files. Highly advise you to work on the section 3 in the following order:
-2. CuttingBoard
-3. Garment
-4. Coat
-5. Pant
+
+1. CuttingBoard
+2. Garment
+3. Coat
+4. Pant
 
 
 ## FAQ
