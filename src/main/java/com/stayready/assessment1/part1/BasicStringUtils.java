@@ -6,7 +6,15 @@ public class BasicStringUtils {
      * @return string with identical content, and the first character capitalized
      */
     public static String camelCase(String str) {
-        return null;
+    
+        String words[]=str.split(" ");  
+        String capitalizeWord="";  
+        for(String elements:words){  
+        String first=elements.substring(0,1);  
+        String afterfirst=elements.substring(1);  
+        capitalizeWord+=first.toUpperCase()+afterfirst+" ";  
+    }  
+    return capitalizeWord.trim();  
     }
 
     /**
@@ -14,7 +22,7 @@ public class BasicStringUtils {
      * @return string with identical contents, in the reverse order
      */
     public static String reverse(String str) {
-        return null;
+        return " ";
     }
 
     /**
@@ -22,6 +30,7 @@ public class BasicStringUtils {
      * @return string with identical contents, with each word individually in reverse order
      */
     public static String reverseWords(String str) {
+        
         return null;
     }
 
